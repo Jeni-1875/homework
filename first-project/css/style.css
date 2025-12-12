@@ -1,0 +1,32 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tr,
+thead,
+caption,
+th,
+td {
+  border: 1px solid #000;
+}
+
+caption {
+  border-bottom: none;
+  font-weight: bold;
+}
+#title-th1,
+#title-th2 {
+  color: red;
+}
+#title-td1,
+#title-td2,
+#title-td3,
+#title-td4,
+#title-td5,
+#title-td6,
+#title-td7,
+#title-td8,
+#title-td9 {
+  color: red;
+}
