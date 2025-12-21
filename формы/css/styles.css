@@ -1,0 +1,50 @@
+form {
+  display: block;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 1px; /* Отступ между label и input */
+  font-weight: bold; /* Делаем текст заголовка жирным */
+  text-align: left; /* Центрирование самого текста внутри label */
+}
+
+input {
+  width: 80%; /* Ширина поля ввода */
+  padding: 8px; /* Внутренние отступы */
+  box-sizing: border-box; /* Учитываем padding в общей ширине */
+  border: 1px solid #161313;
+  border-radius: 1px;
+}
+
+fieldset {
+  width: 350px;
+  height: 500px;
+}
+
+.label {
+  margin-top: 10px;
+  display: block;
+}
+.input {
+  margin-bottom: 2px;
+  display: block;
+  text-align: left;
+}
+
+textarea {
+  width: 80%;
+  resize: vertical;
+  max-height: 200px;
+  display: block;
+}
+
+.button style {
+  cursor: pointer;
+}
